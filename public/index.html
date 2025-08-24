@@ -26,7 +26,7 @@
   </div>
 
   <script>
-    const socket = io("http://localhost:8000", { transports: ["websocket"] });
+    const socket = io();
     const form = document.getElementById('form');
     const input = document.getElementById('input');
     const messages = document.getElementById('messages');
